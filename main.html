@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avanindra's Porto</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      background: #202020;
+      display: flex;
+      flex-direction: column;
+    }
+    .navBar {
+      flex-shrink: 0;
+      background: rgba(50, 50, 50, 0.7);
+      backdrop-filter: blur(10px);
+      top: 0;
+      bottom: 0;
+      position: sticky;
+      display: flex;
+      flex-direction: row-reverse;
+      font-weight: 500;
+      z-index: 1;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    .Home {
+      color: #dedededa;
+      font-family: "Manrope", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.5px;
+      height: 43;
+      width: 25px;
+      font-weight: 500;
+      padding-top: 30px;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .Home:hover {
+      color: white;
+    }
+
+    .Work:hover {
+      color: white;
+    }
+
+    .Contact:hover {
+      color: white;
+    }
+
+    .Work {
+      color: #dedededa;
+      font-family: "Manrope", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.5px;
+      height: 43px;
+      width: 25px;
+      font-weight: 500;
+      font-size: 18px;
+      padding-top: 30px;
+      cursor: pointer;
+      text-align: center;
+    }
+    .Contact {
+      color: #dedededa;
+      font-family: "Manrope", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.5px;
+      height: 43;
+      width: 25px;
+      font-weight: 500;
+      font-size: 18px;
+      padding-top: 30px;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .foto {
+      position: absolute;
+      padding-left: 838px;
+      padding-top: 129px;
+      height: 400px;
+      width: 400px;
+    }
+    .button {
+      height: 64px;
+      width: 400px;
+      background-color: #959595;
+      margin-left: 96px;
+      margin-top: 48px;
+      border-radius: 9999px;
+      cursor: pointer;
+    }
+
+    .email {
+      font-family: Manrope, sans-serif;
+      width: fit-content;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: normal;
+      padding: 20px 70px;
+      height: 25px;
+      width: 161px;
+    }
+
+    .parent {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-column-gap: 32px;
+      grid-row-gap: 32px;
+      margin-top: 0px;
+    }
+
+    .div1 {
+      grid-area: 2 / 2 / 3 / 3;
+      background-color: #ffffff;
+      height: 400px;
+      width: 400px;
+    }
+    .div2 {
+      grid-area: 2 / 3 / 3 / 4;
+      background-color: #ffffff;
+      height: 400px;
+      width: 400px;
+    }
+    .div3 {
+      grid-area: 2 / 4 / 3 / 5;
+      background-color: #ffffff;
+      height: 400px;
+      width: 400px;
+    }
+    .div4 {
+      grid-area: 3 / 2 / 4 / 3;
+      background-color: #ffffff;
+      height: 400px;
+      width: 400px;
+    }
+    .div5 {
+      grid-area: 3 / 3 / 4 / 4;
+      background-color: #ffffff;
+      height: 400px;
+      width: 400px;
+    }
+    .div6 {
+      grid-area: 3 / 4 / 4 / 5;
+      background-color: #ffffff;
+      height: 400px;
+      width: 400px;
+    }
+
+    #Hero {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .container {
+      max-width: 2000px;
+      width: 100%;
+    }
+  </style>
+  <body>
+    <div class="navBar">
+      <div class="Contact" style="padding-right: 109px">Contact</div>
+      <div class="Work" style="padding-right: 63px">Work</div>
+      <div class="Home" style="padding-right: 56px">Home</div>
+    </div>
+    <div id="Hero">
+      <div
+        style="
+          width: 100%;
+          color: #dedede;
+          font-size: 64px;
+          font-family: Manrope, sans-serif;
+          font-weight: 600;
+          line-height: 70px;
+          word-wrap: break-word;
+          margin-top: 129px;
+          margin-left: 96px;
+          height: 210px;
+          width: 824px;
+        "
+      >
+        Hi, I am Avanindra <br />A Designer <br />based in Djakarta.
+      </div>
+
+      <div
+        id="foto"
+        style="
+          height: 400px;
+          width: 400px;
+          margin-right: 202px;
+          position: absolute;
+          margin-left: 838px;
+          margin-top: 129px;
+          background-color: #ffffff;
+          border-radius: 9999px;
+        "
+      >
+        <img
+          style="border-radius: 9999pc"
+          height="400px;"
+          width="400px;"
+          src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6e10b020-19d7-4b56-949e-af314680e93d/dggwd28-ff2d2c33-6943-4830-9d7f-dcf1549a8508.png/v1/fill/w_894,h_894,q_70,strp/untitled_artwork_by_ghbooce_dggwd28-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzZlMTBiMDIwLTE5ZDctNGI1Ni05NDllLWFmMzE0NjgwZTkzZFwvZGdnd2QyOC1mZjJkMmMzMy02OTQzLTQ4MzAtOWQ3Zi1kY2YxNTQ5YTg1MDgucG5nIiwid2lkdGgiOiI8PTEwODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.YKbHYxszSw6yFDFMR62-tftepX97nYpAaIVV_G6f2GY"
+          alt=""
+        />
+      </div>
+    </div>
+    <div
+      style="
+        width: 824px;
+        color: #959595;
+        font-size: 24px;
+        font-family: Manrope, sans-serif;
+        font-weight: 300;
+        line-height: 36px;
+        word-wrap: break-word;
+        margin-left: 96px;
+        margin-top: 24px;
+      "
+    >
+      I help businesses and companies reach <br />their goals by designing
+      user-centric digital <br />products & interactive experiences.
+    </div>
+
+    <div class="button"><div class="email">Aavanindra@gmail.com</div></div>
+    <div class="container">
+      <div
+        style="
+          color: #dededeaa;
+          font-size: 32px;
+          font-family: Manrope, sans-serif;
+          font-weight: 200;
+          line-height: 70px;
+          margin-top: 128px;
+          text-align: center;
+        "
+      >
+        Featured Work
+      </div>
+      <div class="parent">
+        <div class="div1">
+          <img
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6e10b020-19d7-4b56-949e-af314680e93d/dggwbfk-0b235a1a-1450-4cb5-92f0-53ed394cf7a4.png/v1/fill/w_894,h_894,q_70,strp/cbk_by_ghbooce_dggwbfk-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzZlMTBiMDIwLTE5ZDctNGI1Ni05NDllLWFmMzE0NjgwZTkzZFwvZGdnd2Jmay0wYjIzNWExYS0xNDUwLTRjYjUtOTJmMC01M2VkMzk0Y2Y3YTQucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.IjCF-OwYEy85I-MJBAL0uJnSmB8M9gerW9KxfIckikI
+          "
+            alt=""
+            width="400px"
+            height="400px"
+          />
+        </div>
+        <div class="div2">
+          <img
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6e10b020-19d7-4b56-949e-af314680e93d/dggwc77-f12e5ba1-506f-4409-a150-f8f933d92a52.png/v1/fill/w_894,h_894,q_70,strp/artboard_1_copy_2_by_ghbooce_dggwc77-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzZlMTBiMDIwLTE5ZDctNGI1Ni05NDllLWFmMzE0NjgwZTkzZFwvZGdnd2M3Ny1mMTJlNWJhMS01MDZmLTQ0MDktYTE1MC1mOGY5MzNkOTJhNTIucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.cq8ZYqdo492RKkX_PULDSCMne7iZvtrV0De-jgJ8Nw8"
+            alt=""
+            height="400px"
+            width="400px"
+          />
+        </div>
+        <div class="div3">
+          <img
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6e10b020-19d7-4b56-949e-af314680e93d/dggwc8k-d2876ef0-0b16-45d8-a2d7-0682c466d5be.png/v1/fill/w_894,h_894,q_70,strp/artboard_1_by_ghbooce_dggwc8k-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzZlMTBiMDIwLTE5ZDctNGI1Ni05NDllLWFmMzE0NjgwZTkzZFwvZGdnd2M4ay1kMjg3NmVmMC0wYjE2LTQ1ZDgtYTJkNy0wNjgyYzQ2NmQ1YmUucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.auIFdi2kCTIhjlj4Mvep3a71YL_hpMvb_KqgWkUXgxI"
+            alt=""
+            height="400px"
+            width="400px"
+          />
+        </div>
+        <div class="div4">
+          <img
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6e10b020-19d7-4b56-949e-af314680e93d/dggwc83-3070d523-1117-48b1-a779-7aea81a54e3c.png/v1/fill/w_894,h_894,q_70,strp/artboard_1_copy_by_ghbooce_dggwc83-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzZlMTBiMDIwLTE5ZDctNGI1Ni05NDllLWFmMzE0NjgwZTkzZFwvZGdnd2M4My0zMDcwZDUyMy0xMTE3LTQ4YjEtYTc3OS03YWVhODFhNTRlM2MucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.Kfxhz8SowT2jibDLF_962zbiV_XOimPy5L8WFbiKkGk"
+            alt=""
+            height="400px"
+            width="400px"
+          />
+        </div>
+        <div class="div5">
+          <img
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6e10b020-19d7-4b56-949e-af314680e93d/dggwc7m-1bb6dcc9-7e55-40d3-ab16-2f5a860526b7.png/v1/fill/w_894,h_894,q_70,strp/artboard_1_copy_3_by_ghbooce_dggwc7m-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzZlMTBiMDIwLTE5ZDctNGI1Ni05NDllLWFmMzE0NjgwZTkzZFwvZGdnd2M3bS0xYmI2ZGNjOS03ZTU1LTQwZDMtYWIxNi0yZjVhODYwNTI2YjcucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.WYUjH4dNjDxrCWKhGAL5AzThvdBqms-_N6_IHaACvnA"
+            alt=""
+            height="400px"
+            width="400px"
+          />
+        </div>
+        <div class="div6">
+          <img
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6e10b020-19d7-4b56-949e-af314680e93d/dggwd28-ff2d2c33-6943-4830-9d7f-dcf1549a8508.png/v1/fill/w_894,h_894,q_70,strp/untitled_artwork_by_ghbooce_dggwd28-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzZlMTBiMDIwLTE5ZDctNGI1Ni05NDllLWFmMzE0NjgwZTkzZFwvZGdnd2QyOC1mZjJkMmMzMy02OTQzLTQ4MzAtOWQ3Zi1kY2YxNTQ5YTg1MDgucG5nIiwid2lkdGgiOiI8PTEwODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.YKbHYxszSw6yFDFMR62-tftepX97nYpAaIVV_G6f2GY"
+            alt=""
+            height="400px"
+            width="400px"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
